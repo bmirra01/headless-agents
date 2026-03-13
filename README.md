@@ -60,9 +60,9 @@ No assumptions. No guessing. Full project awareness.
             │ domain A │  │ domain B │ │ domain C │
             └───────┬──┘  └───────┬──┘ └────┬─────┘
                     │             │         │
-                    └─────────────┼────────┬┘
-                                  │        │
-                    ┌─────────────▼────────▼──────────┐
+                    └─────────────┼────────-┘
+                                  │
+                    ┌─────────────▼────────────────-──┐
                     │ All agents update shared memory │
                     │ Records decisions & patterns    │
                     │ Orchestrator publishes learnings│
